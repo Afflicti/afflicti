@@ -1,13 +1,9 @@
 package main
 
-
 func main() {
-	var sudoku [9][9]int
+	var sudoku[3][3] int
 
 	Nul(&sudoku)
-	Vypis(&sudoku)
-	Zadej(&sudoku)
 	Napln(&sudoku)
 	Vypis(&sudoku)
-
 }
